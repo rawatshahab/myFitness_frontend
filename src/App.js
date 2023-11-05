@@ -9,6 +9,11 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import BmiCalculator from './pages/BmiCalculator';
 import ChatBotLogic from './pages/chatgpt';
+import Login from './pages/login';
+import Register from './pages/register';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // require('dotenv').config();
 const App = () => {
@@ -20,6 +25,9 @@ const App = () => {
         <Route path="/exercise/:id" element={<ExerciseDetail />} />
         <Route path="/BmiCalculator" element={<BmiCalculator />} />
         <Route path="/Chatgpt" element={<ChatBotLogic />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        
        
     </Routes>
     <Footer />
