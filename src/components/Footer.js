@@ -51,7 +51,7 @@ const Footer = () => {
         </Typography>
         <Link >
           <EmailIcon color="primary" fontSize="large" /> 
-          <i>mr.mayank2402@gmail.com<i/>
+          <i>mr.mayank2402@gmail.com</i>
         </Link>
       </Box>
       <Box mx={7}></Box>
