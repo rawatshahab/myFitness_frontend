@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <Box>
-        <Navbar/>
+        
         <HeroBanner /> 
         <SearchExercises 
         setExercises={setExercises}
