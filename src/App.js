@@ -23,14 +23,13 @@ const App = () => {
 
    
     <Routes> 
-    <Route path="*" element={<Navigate to="/login" />} />
-        <Route path="/" element={<Login />} /> 
+    
+         
         <Route path="/home" element = {<Home />} />
         <Route path="/exercise/:id" element={<ExerciseDetail />} />
         <Route path="/BmiCalculator" element={<BmiCalculator />} />
         <Route path="/Chatgpt" element={<ChatBotLogic />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />   
+        
     </Routes>
     <Footer />
      </Box>
