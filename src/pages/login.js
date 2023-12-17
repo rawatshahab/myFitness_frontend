@@ -19,7 +19,8 @@ const Login = () => {
     const navigate = useNavigate();
     const handlesubmit =(e) =>{
         e.preventDefault()
-        axios.post("http://localhost:4002/login ",{email,password})
+        axios.post("my-fitness-backend.vercel.app
+ ",{email,password})
         
         .then(result =>{
             console.log(result)
