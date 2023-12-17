@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import BmiCalculator from './pages/BmiCalculator';
 import ChatBotLogic from './pages/chatgpt';
-import Login from './pages/login';
+
 
 
 
@@ -25,7 +25,7 @@ const App = () => {
     <Routes> 
     
          
-        <Route path="/home" element = {<Home />} />
+        <Route path="/" element = {<Home />} />
         <Route path="/exercise/:id" element={<ExerciseDetail />} />
         <Route path="/BmiCalculator" element={<BmiCalculator />} />
         <Route path="/Chatgpt" element={<ChatBotLogic />} />
