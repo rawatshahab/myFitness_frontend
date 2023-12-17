@@ -49,8 +49,9 @@ const Footer = () => {
           Contact us via email:
          
         </Typography>
-        <Link href="mr.mayank2402@gmail.com">
+        <Link >
           <EmailIcon color="primary" fontSize="large" /> 
+          <i>mr.mayank2402@gmail.com<i/>
         </Link>
       </Box>
       <Box mx={7}></Box>
