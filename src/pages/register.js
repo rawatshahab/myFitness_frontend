@@ -27,7 +27,8 @@ const Register = () => {
     }
     else{
       console.log("heh");
-      axios.post("http://localhost:4002/register ",{name,email,password})
+      axios.post("my-fitness-backend.vercel.app
+ ",{name,email,password})
     .then(result => {console.log(result)
     navigate('/login')
     
