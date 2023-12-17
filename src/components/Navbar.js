@@ -42,7 +42,6 @@ const Navbar = () => {
 <a href="/home" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> Home</a>
 <a href="/BmiCalculator" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> BmiCalculator</a>
 <a href="/Chatgpt" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> MyBot</a>
-<a href="/login" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> LogOut</a>
 
 
 
