@@ -42,7 +42,7 @@ const ExerciseDetail = () => {
 
   return (
     <div>
-    <Navbar/>
+    
     <Box color="white">
       <Detail exerciseDetail={exerciseDetail} />  {/*  */}
       <ExerciseVideos exerciseVideos={exerciseVideos}  name={exerciseDetail.name}  />
