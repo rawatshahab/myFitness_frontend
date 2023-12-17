@@ -67,7 +67,7 @@ const ChatBotLogic = () => {
 
   return (
     <div>
-    <Navbar/>
+    
     
     <div className='container'>
     
