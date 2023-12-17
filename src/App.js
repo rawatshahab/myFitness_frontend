@@ -21,7 +21,7 @@ const App = () => {
     <Box width="400px" sx={{ width : {x1: '1488px'}}} m="auto"> 
 
 
-   
+   <Navbar />
     <Routes> 
     
          
