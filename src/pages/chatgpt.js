@@ -1,6 +1,7 @@
 import React, { useState, setIsLoading,isLoading,useEffect } from 'react';
 import './chat.css';
 import OpenAI from 'openai';
+import Navbar from '../components/Navbar';
 const openAi = new OpenAI({ apiKey:process.env.REACT_APP_API_KEY ,dangerouslyAllowBrowser: true });
 
 const ChatBotLogic = () => {
@@ -65,13 +66,19 @@ const ChatBotLogic = () => {
   }, []);
 
   return (
+    <div>
+    <Navbar/>
+    
     <div className='container'>
     
+    
     <div className='img'>
+    
     
        
     </div>
     <div className="chatbot-container">
+    
       <div className="chat-area">
         {messages.map((message, index) => (
           <div key={index} className={`message ${message.sender}`}>
@@ -103,6 +110,7 @@ const ChatBotLogic = () => {
       <h3 className='h3'>
       Excuses don't burn calories.
       </h3>
+    </div>
     </div>
     </div>
   );

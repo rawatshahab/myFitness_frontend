@@ -3,7 +3,7 @@ import {useParams } from 'react-router-dom'
 import {Box} from '@mui/material'
 
 import {exerciseOptions , fetchData, youtubeOptions} from '../utils/fetchData'
-
+import Navbar from '../components/Navbar';
 import Detail from '../components/Detail'
 import ExerciseVideos from '../components/ExerciseVideos'
 import SimilarExercises from '../components/SimilarExercises'
@@ -41,12 +41,14 @@ const ExerciseDetail = () => {
 
 
   return (
-
+    <div>
+    <Navbar/>
     <Box color="white">
       <Detail exerciseDetail={exerciseDetail} />  {/*  */}
       <ExerciseVideos exerciseVideos={exerciseVideos}  name={exerciseDetail.name}  />
       <SimilarExercises target targetMuscleExercises={targetMuscleExercises} equipmentExercises={equipmentExercises} />
     </Box>
+    </div>
   )
 }
 

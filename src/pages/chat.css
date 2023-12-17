@@ -20,9 +20,10 @@
 }
 
 .h1{
-  color: white;
+  
+
   padding-left: 50px;
-  padding-top: 60px;
+  padding-top: 50px;
   font-size: 40px;
 }
 .h3{
@@ -113,7 +114,7 @@
     border-radius: 3px;
     font-size: 16px;
     outline: none;
-    width: 370px;
+    width: 330px;
   }
   
   /* Style the send button */

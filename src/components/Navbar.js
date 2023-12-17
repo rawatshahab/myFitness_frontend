@@ -35,16 +35,16 @@ const Navbar = () => {
     >
           
 <Link to="/">
-<img src={Logo} alt="logo" style={{width:'270px', margin:'5px -1015px'}} />
+<img src={Logo} alt="logo" style={{width:'270px', margin:'5px -1041px'}} />
 </Link>     
 {/* <Link style={{textDecoration: 'none',color:'white'}}>Hello</Link> */}
 
-<a href="/" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> Home</a>
+<a href="/home" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> Home</a>
 <a href="/BmiCalculator" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> BmiCalculator</a>
 <a href="/Chatgpt" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> MyBot</a>
-<a href="/login" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> Register</a>
+<a href="/login" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none',paddingBottom:"28px" }} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> LogOut</a>
 
-{/* <a href="/" style={{textDecoration: 'none',color: 'white',fontSize: '20px',fontFamily: 'Montserrat', textDecoration: 'none' ,paddingBottom:"28px"}} onMouseEnter={(e) => {e.target.style.textDecoration = 'underline';}} onMouseLeave={(e) => {e.target.style.textDecoration = 'none';  }}> Log Out</a> */}
+
 
 
 

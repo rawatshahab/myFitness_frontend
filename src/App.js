@@ -1,6 +1,6 @@
 import React from 'react';
-import { Route , Routes } from 'react-router-dom'; //it will route between home page and exercise-details
-import { Box } from '@mui/material'; //div with some shading and colour
+import { Route , Routes, Navigate } from 'react-router-dom'; 
+import { Box } from '@mui/material'; 
 
 import './App.css';
 import ExerciseDetail from './pages/ExerciseDetail';
@@ -15,20 +15,22 @@ import Register from './pages/register';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// require('dotenv').config();
+
 const App = () => {
   return (
     <Box width="400px" sx={{ width : {x1: '1488px'}}} m="auto"> 
-    <Navbar />
+
+
+   
     <Routes> 
-        <Route path="/" element={<Home />} /> 
+    <Route path="*" element={<Navigate to="/login" />} />
+        <Route path="/" element={<Login />} /> 
+        <Route path="/home" element = {<Home />} />
         <Route path="/exercise/:id" element={<ExerciseDetail />} />
         <Route path="/BmiCalculator" element={<BmiCalculator />} />
         <Route path="/Chatgpt" element={<ChatBotLogic />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        
-       
+        <Route path="/register" element={<Register />} />   
     </Routes>
     <Footer />
      </Box>
@@ -36,3 +38,5 @@ const App = () => {
 }
 
 export default App
+
+

@@ -3,6 +3,7 @@
 import React, { useEffect, useState} from 'react';
 import { Box, Stack, Typography, TextField, Button } from '@mui/material';
 import { fetchData, BMIOptions } from '../utils/fetchData';
+import Navbar from '../components/Navbar';
 
 
 const BmiCalculator = () => {    
@@ -45,6 +46,7 @@ const BmiCalculator = () => {
 
   return (
     <div>
+    <Navbar/>
     <Stack p="80px" gap="30px" backgroundColor="#FFF" width="90%" margin="auto" mt="100px" marginBottom="90px">
         <TextField type="number"  placeholder='Your Weight in Kg(must be 40kg to 160kg in range)' onChange={(e)=> setWeight(e.target.value) } />
         <TextField type="number" placeholder='Your Height in CM (must be 130cm to 230cm in range)' onChange={(e)=> setHeight(e.target.value) } />
